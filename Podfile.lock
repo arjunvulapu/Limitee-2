@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - IQKeyboardManager (6.5.3)
+  - JVFloatLabeledTextField (1.2.2)
+  - LNSideMenu (3.4.4)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SSCustomTabbar (2.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManager
+  - JVFloatLabeledTextField
+  - LNSideMenu
+  - SDWebImage
+  - SSCustomTabbar
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - JVFloatLabeledTextField
+    - LNSideMenu
+    - SDWebImage
+    - SSCustomTabbar
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  LNSideMenu: 43aaa1f9b5f406f04b3c9980b7a6f6569686176d
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SSCustomTabbar: 4ec050d50ada582ba6adf0ac5e086e5ac141df5a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: bb19e780cd07f97cf79a487192dd27e52982fc1a
+
+COCOAPODS: 1.8.4

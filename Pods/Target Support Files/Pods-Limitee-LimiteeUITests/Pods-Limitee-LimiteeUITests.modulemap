@@ -1,0 +1,6 @@
+framework module Pods_Limitee_LimiteeUITests {
+  umbrella header "Pods-Limitee-LimiteeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
