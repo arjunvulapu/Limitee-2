@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Al7alabi.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+				<key>dateExpires</key>
+				<string>27/10/20</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FTPopOverMenu_Swift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>IQKeyboardManager.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>JVFloatLabeledTextField.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>LNSideMenu.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>LUExpandableTableView.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SDWebImage.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>9627EBE81F98158B93BD1FE1153CD107265C1E55</string>
+						<key>dateExpires</key>
+						<string>27/10/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SVProgressHUD.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>3984D386H6</string>
+						<key>name</key>
+						<string>Wassem Lbnie</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>3984D386H6.Develapp.Al7alabi</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>3984D386H6</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>3984D386H6.Develapp.Al7alabi</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Al7alabi.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5cb3868a-5633-45b5-a404-473fb18acbbe</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>3984D386H6</string>
+				<key>name</key>
+				<string>Wassem Lbnie</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
