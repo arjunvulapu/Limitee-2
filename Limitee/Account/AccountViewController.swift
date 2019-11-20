@@ -12,7 +12,7 @@ class AccountViewController: BaseViewController,UITableViewDelegate,UITableViewD
    
     
     @IBOutlet weak var accountTableView: UITableView!
-    
+    var from:NSString!
     var menuNames = [String]()
     var menuImgs:Array = [UIImage]()
     override func viewDidLoad() {
@@ -80,11 +80,13 @@ class AccountViewController: BaseViewController,UITableViewDelegate,UITableViewD
         }
     }
     @IBAction func closeAction(_ sender: UIButton) {
-        self.tabBarController?.selectedIndex = 0
-        if let item = self.tabBarController?.tabBar.selectedItem {
-            self.tabBarController?.tabBar(self.tabBarController!.tabBar, didSelect: item)
-            
-        }
+            self.tabBarController?.selectedIndex = 0
+                   if let item = self.tabBarController?.tabBar.selectedItem {
+                       self.tabBarController?.tabBar(self.tabBarController!.tabBar, didSelect: item)
+                       
+                   }
+      
+       
     }
     
 }

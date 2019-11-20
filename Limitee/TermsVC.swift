@@ -14,6 +14,7 @@ class TermsVC: BaseViewController {
     var resultDict:NSDictionary!
     var resultDict1:NSDictionary!
     var from:NSString?
+    var fromWhere:NSString?
     override func viewDidLoad() {
         super.viewDidLoad()
         if(from == "about"){
@@ -45,6 +46,10 @@ class TermsVC: BaseViewController {
         descTextView.attributedText = desStr.htmlToAttributedString
     }
     @IBAction func backBtnAction(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        if (from == "menu"){
+            appDelegate.moveStart()
+        }else{
+self.navigationController?.popViewController(animated: true)
+        }
     }
 }

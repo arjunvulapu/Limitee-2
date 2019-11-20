@@ -14,7 +14,6 @@
 		18234B76237C0FFE00D06D10 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18234B75237C0FFE00D06D10 /* AccountViewController.swift */; };
 		18234B80237C2F0500D06D10 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18234B7F237C2F0500D06D10 /* CategoriesVC.swift */; };
 		18234B82237C2F8700D06D10 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18234B81237C2F8700D06D10 /* ContactUsVC.swift */; };
-		18234B85237C2FCE00D06D10 /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18234B84237C2FCE00D06D10 /* FAQVC.swift */; };
 		18234B87237C305500D06D10 /* ExclusiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18234B86237C305500D06D10 /* ExclusiveVC.swift */; };
 		182D5FCA2382760E00E23B6D /* SelectSourceCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D5FC82382760D00E23B6D /* SelectSourceCategoryViewController.swift */; };
 		182D5FCB2382760E00E23B6D /* SelectSourceCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182D5FC92382760E00E23B6D /* SelectSourceCategoryViewController.xib */; };
@@ -31,6 +30,8 @@
 		18548916237D48E800D2D4C1 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18548915237D48E800D2D4C1 /* RegisterVC.swift */; };
 		18548918237D61BF00D2D4C1 /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18548917237D61BF00D2D4C1 /* TermsVC.swift */; };
 		1854891A237D7AF400D2D4C1 /* DashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18548919237D7AF400D2D4C1 /* DashVC.swift */; };
+		1854B7EA238411670052DBF9 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854B7E9238411670052DBF9 /* AboutUsVC.swift */; };
+		1854B7EC238411D20052DBF9 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854B7EB238411D20052DBF9 /* NotificationVC.swift */; };
 		1868B1D623795FA500C6442B /* viewall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1868B1D523795FA300C6442B /* viewall.png */; };
 		1868F1D9237EB3B500C42112 /* CategoriesTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868F1D8237EB3B500C42112 /* CategoriesTC.swift */; };
 		1868F1DC237ECFA800C42112 /* WishListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868F1DA237ECFA700C42112 /* WishListVC.swift */; };
@@ -48,7 +49,6 @@
 		188A10982382D6CB00D62648 /* OrderDetailsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A10962382D6CA00D62648 /* OrderDetailsTC.swift */; };
 		189CC178237FA9B400EED529 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CC177237FA9B200EED529 /* DetailVC.swift */; };
 		18A51C662370152400CE0FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A51C652370152400CE0FD5 /* AppDelegate.swift */; };
-		18A51C682370152400CE0FD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A51C672370152400CE0FD5 /* SceneDelegate.swift */; };
 		18A51C6A2370152400CE0FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A51C692370152400CE0FD5 /* ViewController.swift */; };
 		18A51C6D2370152400CE0FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A51C6B2370152400CE0FD5 /* Main.storyboard */; };
 		18A51C6F2370152C00CE0FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A51C6E2370152C00CE0FD5 /* Assets.xcassets */; };
@@ -129,7 +129,6 @@
 		18234B75237C0FFE00D06D10 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		18234B7F237C2F0500D06D10 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		18234B81237C2F8700D06D10 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
-		18234B84237C2FCE00D06D10 /* FAQVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQVC.swift; sourceTree = "<group>"; };
 		18234B86237C305500D06D10 /* ExclusiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExclusiveVC.swift; sourceTree = "<group>"; };
 		182D5FC82382760D00E23B6D /* SelectSourceCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSourceCategoryViewController.swift; sourceTree = "<group>"; };
 		182D5FC92382760E00E23B6D /* SelectSourceCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectSourceCategoryViewController.xib; sourceTree = "<group>"; };
@@ -147,6 +146,8 @@
 		18548915237D48E800D2D4C1 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		18548917237D61BF00D2D4C1 /* TermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
 		18548919237D7AF400D2D4C1 /* DashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashVC.swift; sourceTree = "<group>"; };
+		1854B7E9238411670052DBF9 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		1854B7EB238411D20052DBF9 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		1868B1D523795FA300C6442B /* viewall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewall.png; sourceTree = "<group>"; };
 		1868F1D8237EB3B500C42112 /* CategoriesTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTC.swift; sourceTree = "<group>"; };
 		1868F1DA237ECFA700C42112 /* WishListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListVC.swift; sourceTree = "<group>"; };
@@ -165,7 +166,6 @@
 		189CC177237FA9B200EED529 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		18A51C622370152400CE0FD5 /* Limitee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limitee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A51C652370152400CE0FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18A51C672370152400CE0FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		18A51C692370152400CE0FD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18A51C6C2370152400CE0FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A51C6E2370152C00CE0FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -293,14 +293,6 @@
 			path = ContactUsVC;
 			sourceTree = "<group>";
 		};
-		18234B83237C2FA800D06D10 /* FAQVC */ = {
-			isa = PBXGroup;
-			children = (
-				18234B84237C2FCE00D06D10 /* FAQVC.swift */,
-			);
-			path = FAQVC;
-			sourceTree = "<group>";
-		};
 		18372BE523714A0700606F93 /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,7 +327,6 @@
 		18A51C642370152400CE0FD5 /* Limitee */ = {
 			isa = PBXGroup;
 			children = (
-				18234B83237C2FA800D06D10 /* FAQVC */,
 				18234B7C237C2E7100D06D10 /* ContactUsVC */,
 				18234B7B237C2E4B00D06D10 /* CategoriesVC */,
 				18234B7A237C2E3500D06D10 /* ExclusivesVC */,
@@ -348,7 +339,6 @@
 				1868F1DA237ECFA700C42112 /* WishListVC.swift */,
 				189CC177237FA9B200EED529 /* DetailVC.swift */,
 				183D40522383E00B0013D24B /* InitialVC.swift */,
-				18A51C672370152400CE0FD5 /* SceneDelegate.swift */,
 				18A51C692370152400CE0FD5 /* ViewController.swift */,
 				18548911237D194500D2D4C1 /* SignInVC.swift */,
 				1876A78F237FD1D7004F5472 /* LeftMenuTableViewController.swift */,
@@ -376,6 +366,8 @@
 				18A51C6B2370152400CE0FD5 /* Main.storyboard */,
 				1882772B23802D1700C5D23F /* MyBagTC.swift */,
 				1882772C23802D1800C5D23F /* MyBagVC.swift */,
+				1854B7E9238411670052DBF9 /* AboutUsVC.swift */,
+				1854B7EB238411D20052DBF9 /* NotificationVC.swift */,
 				1868B1D523795FA300C6442B /* viewall.png */,
 				1876A78D237FD0BF004F5472 /* SMNavigationController.swift */,
 				18A51C6E2370152C00CE0FD5 /* Assets.xcassets */,
@@ -841,6 +833,7 @@
 				18A51CAE2370322A00CE0FD5 /* Utils.swift in Sources */,
 				182D5FCD238279AC00E23B6D /* SelectPaymentTC.swift in Sources */,
 				18234B6A237BD18400D06D10 /* SideMenuTableViewCell.swift in Sources */,
+				1854B7EA238411670052DBF9 /* AboutUsVC.swift in Sources */,
 				18A51CD0237035B400CE0FD5 /* UIViewController+MJPopupViewController.m in Sources */,
 				18234B71237BF0E400D06D10 /* SWRevealViewController.m in Sources */,
 				18234B80237C2F0500D06D10 /* CategoriesVC.swift in Sources */,
@@ -851,14 +844,13 @@
 				18A51CA82370322A00CE0FD5 /* Localization.swift in Sources */,
 				18A51CAD2370322A00CE0FD5 /* Api.swift in Sources */,
 				1854891A237D7AF400D2D4C1 /* DashVC.swift in Sources */,
-				18234B85237C2FCE00D06D10 /* FAQVC.swift in Sources */,
 				18B2EE6023825F5E006152C1 /* SaveAddVC.swift in Sources */,
 				18A51CB12370322A00CE0FD5 /* CommentView.swift in Sources */,
 				18A51CDF23705E7900CE0FD5 /* HomeVC.swift in Sources */,
 				18A51C992370317600CE0FD5 /* BrandsCC.swift in Sources */,
+				1854B7EC238411D20052DBF9 /* NotificationVC.swift in Sources */,
 				18548912237D194500D2D4C1 /* SignInVC.swift in Sources */,
 				18A51C662370152400CE0FD5 /* AppDelegate.swift in Sources */,
-				18A51C682370152400CE0FD5 /* SceneDelegate.swift in Sources */,
 				188A10922382C13400D62648 /* MyOrdersVC.swift in Sources */,
 				18234B74237C0F9D00D06D10 /* AccountTableViewCell.swift in Sources */,
 				18548918237D61BF00D2D4C1 /* TermsVC.swift in Sources */,

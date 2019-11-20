@@ -12,13 +12,15 @@ class InitialVC: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func skipAction(_ sender: UIButton) {
-        appDelegate.moveStart()
+        let nextVC = storyboard?.instantiateViewController(identifier: "SSCustomTabBarViewController")
+        self.navigationController?.pushViewController(nextVC!, animated: true)
+//        appDelegate.moveStart()
     }
     
 }

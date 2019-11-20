@@ -15,6 +15,7 @@ class ExclusiveVC: BaseViewController,UITableViewDelegate,UITableViewDataSource 
     @IBOutlet weak var exclusiveLbl: UILabel!
     @IBOutlet weak var exclusiveTableView: UITableView!
     
+    var from:NSString!
     
     
   
@@ -28,8 +29,8 @@ class ExclusiveVC: BaseViewController,UITableViewDelegate,UITableViewDataSource 
         super.viewDidLoad()
         exclusiveArray = []
         exclusiveImg = [#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129"),#imageLiteral(resourceName: "Group 7129")]
-
 //        UINavigationBar.appearance().barTintColor = UIColor.black
+        self.navigationController?.navigationBar.isHidden = true
          self.makeCall(Page.exclusive_products , params: [:] , completionHandler: { (response) in
             self.resultDict = response as! NSDictionary
             self.exclusiveArray = self.resultDict.value(forKey: "results") as! NSArray
@@ -99,5 +100,30 @@ class ExclusiveVC: BaseViewController,UITableViewDelegate,UITableViewDataSource 
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     }
-
+    func backAction(){
+        if(from == "menu"){
+            self.tabBarController?.selectedIndex = 0
+                   if let item = self.tabBarController?.tabBar.selectedItem {
+                       self.tabBarController?.tabBar(self.tabBarController!.tabBar, didSelect: item)
+                       
+                   }
+        }else{
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
+    @IBAction func backBtnAction(_ sender: UIButton) {
+        
+//        self.tabBarController?.selectedIndex = 0
+//        if let item = self.tabBarController?.tabBar.selectedItem {
+//            self.tabBarController?.tabBar(self.tabBarController!.tabBar, didSelect: item)
+//
+//        }
+//    }
+        if (from == "menu"){
+                    appDelegate.moveStart()
+                }else{
+        self.navigationController?.popViewController(animated: true)
+                }
+    }
 }

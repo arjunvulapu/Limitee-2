@@ -14,7 +14,7 @@ class SMNavigationController: LNSideMenuNavigationController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+   
     // Do any additional setup after loading the view.
     // Using default side menu
     items = ["Home","My Account","Categories","Events","Contact Us"]
@@ -91,16 +91,43 @@ class SMNavigationController: LNSideMenuNavigationController {
         print("index: \(index),section:\(section),type :\(type)")
         var nViewController: UIViewController? = nil
         
-        if(type == "main"){
             if(index == 0){
 //                let vc:HomeViewController =  storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
 //                self.setContentViewController(vc)
-            }else if(index == 5){
-//                let vc:ContactUsVC =  storyboard?.instantiateViewController(withIdentifier: "ContactUsVC") as! ContactUsVC
+            }else if(index == 1){
+                let vc:ExclusiveVC =  storyboard?.instantiateViewController(withIdentifier: "ExclusiveVC") as! ExclusiveVC
+                vc.from = "menu"
+                self.setContentViewController(vc)
+            }else if(index == 2){
+//                let vc:NotificationVC =  storyboard?.instantiateViewController(withIdentifier: "NotificationVC") as! NotificationVC
 //                vc.from = "menu"
 //                self.setContentViewController(vc)
-            }
+            }else if(index == 3){
+                let vc:TermsVC =  storyboard?.instantiateViewController(withIdentifier: "TermsVC") as! TermsVC
+            vc.fromWhere = "menu"
+                vc.from = "about"
+            self.setContentViewController(vc)
+        }else if(index == 4){
+            let vc:ContactUsVC =  storyboard?.instantiateViewController(withIdentifier: "ContactUsVC") as! ContactUsVC
+            vc.from = "menu"
+            self.setContentViewController(vc)
+        }else if(index == 5){
+            let vc:TermsVC =  storyboard?.instantiateViewController(withIdentifier: "TermsVC") as! TermsVC
+            vc.fromWhere = "menu"
+                vc.from = "faq"
+            self.setContentViewController(vc)
+        }else if(index == 6){
+            let vc:TermsVC =  storyboard?.instantiateViewController(withIdentifier: "TermsVC") as! TermsVC
+            vc.fromWhere = "menu"
+                vc.from = "terms"
+            self.setContentViewController(vc)
+        }else if(index == 7){
+            let vc:TermsVC =  storyboard?.instantiateViewController(withIdentifier: "TermsVC") as! TermsVC
+            vc.fromWhere = "menu"
+                vc.from = "privacy"
+            self.setContentViewController(vc)
         }
+        
         if let sm = menu, sm.isCustomMenu {
           menu?.underNavigationBar = false
         }
